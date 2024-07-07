@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'qbx_scoreboard'
-repository 'https://github.com/Qbox-project/qbx_scoreboard'
+description 'v_scoreboard'
+repository 'https://github.com/DefiledSpec/v_scoreboard'
 version '1.0.0'
 
 shared_scripts {
@@ -19,6 +19,8 @@ files {
     'html/*',
     'config/client.lua',
 }
+
+provide 'qbx_scoreboard'
 
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
